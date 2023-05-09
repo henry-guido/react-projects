@@ -1,0 +1,32 @@
+.appCount{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    font-family: Lato, sans-serif;
+    background-color: #1b1b32;
+}
+
+.freecodecampLogoContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.freecodecampLogo{
+    height: 50px;
+}   
+
+.mainContainerCount{
+    height: 550px;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
