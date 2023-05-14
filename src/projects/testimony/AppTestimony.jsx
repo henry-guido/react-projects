@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import styles from "./style/testimony.module.css";
 import { Testimony } from "./components/Testimony";
 
-function Apptestimony() {
+function AppTestimony() {
   const [persons, setPersons] = useState([]);
 
   useEffect(() => {
@@ -31,4 +31,4 @@ function Apptestimony() {
   );
 }
 
-export default Apptestimony;
+export default AppTestimony;

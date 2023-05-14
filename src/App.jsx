@@ -1,4 +1,4 @@
-import Apptestimony from "./projects/testimony/Apptestimony";
+import AppTestimony from "./projects/testimony/AppTestimony";
 import AppCount from "./projects/count/AppCount";
 import AppCalculator from "./projects/calculator/AppCalculator";
 import AppToDoList from "./projects/todolist/AppToDoList";
@@ -25,7 +25,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/calculator" element={<AppCalculator />} />
           <Route path="/count" element={<AppCount />} />
-          <Route path="/testimony" element={<Apptestimony />} />
+          <Route path="/testimony" element={<AppTestimony />} />
           <Route path="/todolist" element={<AppToDoList />} />
         </Routes>
       </main>
