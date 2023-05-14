@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Button from "./components/Button";
 import ClearButton from "./components/ClearButton";
-import Display from "./components/display";
+import Display from "./components/Display";
 import Logo from "./components/Logo";
 import "./styles.css/appcalculator.css";
 import "./styles.css/display.css";
