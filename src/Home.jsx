@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./styles/App.module.css";
 import logo from "/logo.svg"
+import countimage from "/images/count.png"
 
 const Home = () => {
   return (
@@ -26,7 +27,7 @@ const Home = () => {
         </article>
         <article>
           <Link to="/count">Count</Link>
-          <img className={styles.imageCard} src="/images/count.png" alt="" />
+          <img className={styles.imageCard} src={countimage} alt="" />
         </article>
         <article>
           <Link to="/todolist">To Do List</Link>
