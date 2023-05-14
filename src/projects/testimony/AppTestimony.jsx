@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import styles from "./style/testimony.module.css";
 import { Testimony } from "./components/Testimony";
-import person from "/person.json"
+import person from "/public/person.json"
 
 function AppTestimony() {
   const [persons, setPersons] = useState([]);
