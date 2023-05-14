@@ -1,13 +1,12 @@
 import { useState, useEffect } from "react";
 import styles from "./style/testimony.module.css";
 import { Testimony } from "./components/Testimony";
-import person from "/public/person.json"
 
 function AppTestimony() {
   const [persons, setPersons] = useState([]);
 
   useEffect(() => {
-    fetch(person)
+    fetch("./person.json")
       .then((response) => response.json())
       .then((res) => setPersons(res));
   }, []);
