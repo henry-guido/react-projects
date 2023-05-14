@@ -1,12 +1,14 @@
 import TaskList from "./components/TaskList";
 import styles from "./styles.css/apptodolist.module.css";
+import fccimage from '/images/freecodecamp-logo.png'
+
 
 function AppToDoList() {
   return (
     <div className={styles.appToDoList}>
       <div className={styles.freecodecampLogoContainer}>
         <img
-          src="/images/freecodecamp-logo.png"
+          src={fccimage}
           className={styles.freecodecampLogo}
           alt="Logo of freeCodeCamp"
         />

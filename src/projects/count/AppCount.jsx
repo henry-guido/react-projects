@@ -2,6 +2,7 @@ import { useState } from 'react';
 import styles from './styles/appcount.module.css';
 import { Button } from './components/Button';
 import { Count } from './components/Count'
+import fccimage from '/images/freecodecamp-logo.png'
 
 
 function AppCount() {
@@ -20,7 +21,7 @@ function AppCount() {
       <div className={styles.freecodecampLogoContainer}>
         <img
           className={styles.freecodecampLogo}
-          src='/images/freecodecamp-logo.png'
+          src={fccimage}
           alt='logo of freecodecampo'
         />
       </div>
