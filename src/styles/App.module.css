@@ -68,7 +68,7 @@ article a {
   font-weight: bold;
 }
 
-article a:hover, article a:visited {
+article a:hover, article a:visited,article a:active,a:link {
   color: #0A3143;
 }
 
