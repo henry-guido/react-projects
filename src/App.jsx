@@ -17,7 +17,7 @@ function App() {
             <div className={styles.logoHome}>
               <img src={logo} alt="" />
             </div>
-            ReactJS Projects
+            <h1 className={styles.title}>ReactJS Projects</h1>
           </div>
         </Link>
       </header>
