@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import styles from "./styles/App.module.css";
-import logo from "/logo.svg"
 import countimage from "/images/count.png"
 import todolistimage from "/images/todolist.png"
 import testimonyimage from "/images/testimony.png"
@@ -10,16 +9,6 @@ const Home = () => {
   return (
     <>
       <main className={styles.mainContainer}>
-      <header>
-        <Link to="/">
-          <div className={styles.headerContainer}>
-            <div className={styles.logoHome}>
-              <img src={logo} alt="" />
-            </div>
-            ReactJS Projects
-          </div>
-        </Link>
-      </header>
         <article>
           <Link to="/calculator">Calculator</Link>
           <img

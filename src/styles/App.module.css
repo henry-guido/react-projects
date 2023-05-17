@@ -72,4 +72,7 @@ article a:hover, article a:visited,article a:active,a:link {
   color: #0A3143;
 }
 
-.logoHome {padding-top: 2px;} 
+.logoHome {
+  padding-top: 4px;
+  padding-right: 5px;
+} 
